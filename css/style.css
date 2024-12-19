@@ -1,0 +1,63 @@
+/*width*/
+::-webkit-scrollbar{
+	width: 10px;
+}
+/*track*/
+::-webkit-scrollbar-track{
+	box-shadow: inset 0 0 10px #8bdaf7;
+	border-radius: 10px;
+}
+/*button*/
+::-webkit-scrollbar-button{
+	box-shadow: inset 0 0 10px #0083b3;
+	border-radius: 10px;
+}
+/*handle*/
+::-webkit-scrollbar-thumb{
+	background-color: #052df5;
+	border-radius: 10px;
+}
+/*handle on hover*/
+::-webkit-scrollbar-thumb:hover{
+	background-color: grey;
+}
+					<div class="accordion" id="accordionExample">
+  						<div class="accordion-item border border-dark">
+    						<h2 class="accordion-header p-2">
+      							<button class="accordion-button bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        							What services do you offer as a web developer?
+      							</button>
+    						</h2>
+    					<div id="collapseOne" class="accordion-collapse collapse show p-2" data-bs-parent="#accordionExample">
+      						<div class="accordion-body bg-info">
+        						I specialize in front-end and back-end web development, responsive design, website optimization, e-commerce solutions, and custom web applications.
+      						</div>
+    					</div>
+  					</div>
+
+  					<div class="accordion-item border border-dark">
+    					<h2 class="accordion-header p-2">
+      						<button class="accordion-button collapsed bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        						What programming languages and tools do you use?
+      						</button>
+    					</h2>
+    					<div id="collapseTwo" class="accordion-collapse collapse p-2" data-bs-parent="#accordionExample">
+      						<div class="accordion-body bg-info">
+        						I am proficient in HTML, CSS, JavaScript, and frameworks like React and Angular. On the back end, I use Node.js, Python (Django/Flask), and databases like MySQL and MongoDB.
+      						</div>
+    					</div>
+  					</div>
+
+  					<div class="accordion-item border border-dark">
+    					<h2 class="accordion-header p-2">
+      						<button class="accordion-button collapsed bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        						Do you create websites from scratch or work on existing projects?
+      						</button>
+    					</h2>
+    					<div id="collapseThree" class="accordion-collapse collapse p-2" data-bs-parent="#accordionExample">
+      						<div class="accordion-body bg-info">
+        						Both! I can build a website from scratch based on your requirements or improve and maintain an existing one.
+      						</div>
+    					</div>
+  					</div>
+  				</div
